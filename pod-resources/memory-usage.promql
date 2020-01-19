@@ -1,0 +1,1 @@
+(((sum(container_memory_usage_bytes) by (pod,namespace)) / 1024) / 1024) / 1024

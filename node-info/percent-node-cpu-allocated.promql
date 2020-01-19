@@ -1,0 +1,1 @@
+((sum(kube_pod_container_resource_requests_cpu_cores) by (node)) / on (node) kube_node_status_allocatable_cpu_cores) * 100

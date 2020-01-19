@@ -1,0 +1,1 @@
+sum(kube_pod_container_resource_requests_memory_bytes) by (namespace)

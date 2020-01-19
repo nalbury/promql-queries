@@ -1,0 +1,1 @@
+((sum(kube_pod_container_resource_requests_memory_bytes) by (node)) / on (node) kube_node_status_allocatable_memory_bytes) * 100
